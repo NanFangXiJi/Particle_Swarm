@@ -10,7 +10,7 @@ class Particle_Swarm:
     Particle_list: list[Particle.Particle]  # 粒子群的粒子列表
     answer_list: list  # 获取到的值
     pos_list: list  # 获取值对应的自变量
-    min_answer = 2**64 - 1  # 获取到的最小值
+    min_answer = 2**64 - 1  # 获取到的最小Pa值
     min_pos: list  # 获取到最小值对应位置
     iteration_time = 0  # 迭代次数
     aaa
