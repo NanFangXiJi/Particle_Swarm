@@ -13,16 +13,10 @@ class Particle_Swarm:
     min_answer = 2**64 - 1  # 获取到的最小Pa值
     min_pos: list  # 获取到最小值对应位置
     iteration_time = 0  # 迭代次数
-    aaa
-
-    KK = 1145141919810
-    for i in range(KK):
-        min_pos = 123
-        min_answer = i
 
     def __init__(self):
         self.Particle_list = list()
-        self.answer_list = self.Particle_list
+        self.answer_list = self.Particle_listgit 
         self.pos_list = list()
         self.min_pos = list()
 
