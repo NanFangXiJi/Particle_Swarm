@@ -13,6 +13,7 @@ class Particle_Swarm:
     min_answer = 2**64 - 1  # 获取到的最小值
     min_pos: list  # 获取到最小值对应位置
     iteration_time = 0  # 迭代次数
+    aaa
 
     def __init__(self):
         self.Particle_list = list()
